@@ -1,0 +1,50 @@
+version: "3.1"
+rules:
+  
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+    
+  - rule: Default fallback response
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default
+
+  - rule: "Répondre à : Qu'est-ce que le diabète ?"
+    steps:
+    - intent: ask_general
+    - action: utter_ask_general
+  - rule: "Répondre à : Quelles sont les complications du diabète ?"
+    steps:
+    - intent: ask_consequences
+    - action: utter_ask_consequences
+  - rule: "Répondre à : Quels sont les symptômes ?"
+    steps:
+    - intent: ask_symptomes
+    - action: utter_ask_symptomes
+  - rule: "Répondre à : Quels sont les principaux types de diabète ?"
+    steps:
+    - intent: ask_types
+    - action: utter_ask_types
+  - rule: "Répondre à : Quels sont les facteurs de risques du diabète de type 2 ?"
+    steps:
+    - intent: ask_facteur
+    - action: utter_ask_facteur
+  - rule: "Répondre à : Comment traite-t-on le diabète ?"
+    steps:
+    - intent: ask_traitement
+    - action: utter_ask_traitement
+  - rule: "Répondre à : Peut-on prévenir le diabète ?"
+    steps:
+    - intent: ask_prevention
+    - action: utter_ask_prevention
+  - rule: "Répondre à : Est-ce que le diabète se guérit ?"
+    steps:
+    - intent: ask_guerison
+    - action: utter_ask_guerison

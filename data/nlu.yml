@@ -1,0 +1,86 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - salut
+    - bonjour
+    - coucou
+    - salut à toi
+    - bon matin
+    - bonsoir
+    - yo
+    - hey là
+    - allons-y
+    - salut mec
+    - bonjour matin
+    - bonsoir soir
+    - bon après-midi
+
+- intent: goodbye
+  examples: |
+    - à plus
+    - au revoir
+    - à bientôt
+    - bonne nuit
+    - bye
+    - adieu
+    - passe une bonne journée
+    - on se revoit plus tard
+    - bye bye
+    - à plus tard
+
+- intent: bot_challenge
+  examples: |
+    - es-tu un bot ?
+    - es-tu un humain ?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: ask_general
+  examples: |
+    - Qu'est-ce que le diabète ?
+    - Explique-moi ce qu'est le diabète.
+    - C'est quoi le diabète ?
+  
+- intent: ask_consequences
+  examples: |
+    - Quelles sont les complications du diabète ?
+    - Les conséquences du diabète sont quoi ?
+    - Quels sont les effets secondaires du diabète ?
+  
+- intent: ask_symptomes
+  examples: |
+    - Quels sont les symptômes ?
+    - Quels symptômes montre-t-on avec le diabète ?
+    - Comment savoir si on est diabétique ?
+
+- intent: ask_types
+  examples: |
+    - Quels sont les principaux types de diabète ?
+    - Parle-moi des types de diabète.
+    - Combien y a-t-il de types de diabète ?
+
+- intent: ask_facteur
+  examples: |
+    - Quels sont les facteurs de risques du diabète de type 2 ?
+    - Qu'est-ce qui cause le diabète de type 2 ?
+    - Les causes du diabète de type 2 sont quoi ?
+
+- intent: ask_traitement
+  examples: |
+    - Comment traite-t-on le diabète ?
+    - Quel est le traitement pour le diabète ?
+    - Comment gérer le diabète ?
+
+- intent: ask_prevention
+  examples: |
+    - Peut-on prévenir le diabète ?
+    - Comment éviter le diabète ?
+    - Que faire pour ne pas avoir de diabète ?
+
+- intent: ask_guerison
+  examples: |
+    - Est-ce que le diabète se guérit ?
+    - Le diabète peut-il disparaître ?
+    - Peut-on se débarrasser du diabète ?

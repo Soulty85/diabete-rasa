@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>chatbot</title>
+  </head>
+  <body>
+    <script>
+      !(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+          // Replace 1.x.x with the version that you want
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                customData: { language: "fr" }, // Change 'en' to 'fr' if your bot uses French
+                socketUrl: "http://localhost:5005", // Replace with your Rasa server URL
+                title: "Chatbot Diabète", // Title of the chat widget
+                subtitle: "Posez vos questions sur le diabète", // Subtitle of the widget
+                showMessageDate: true, // Show timestamps on messages
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+    </script>
+  </body>
+</html>
