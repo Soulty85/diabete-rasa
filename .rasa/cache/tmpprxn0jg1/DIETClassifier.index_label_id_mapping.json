@@ -1,0 +1,13 @@
+{
+  "0": "ask_consequences",
+  "1": "ask_facteur",
+  "2": "ask_general",
+  "3": "ask_guerison",
+  "4": "ask_prevention",
+  "5": "ask_symptomes",
+  "6": "ask_traitement",
+  "7": "ask_types",
+  "8": "bot_challenge",
+  "9": "goodbye",
+  "10": "greet"
+}

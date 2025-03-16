@@ -1,0 +1,36 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_guerison\"}}]": "utter_ask_guerison",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_guerison\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_guerison\"}, \"user\": {\"intent\": \"ask_guerison\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_general\"}}]": "utter_ask_general",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_general\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_general\"}, \"user\": {\"intent\": \"ask_general\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_types\"}}]": "utter_ask_types",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_types\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_types\"}, \"user\": {\"intent\": \"ask_types\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_consequences\"}}]": "utter_ask_consequences",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_consequences\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_consequences\"}, \"user\": {\"intent\": \"ask_consequences\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_symptomes\"}}]": "utter_ask_symptomes",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_symptomes\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_symptomes\"}, \"user\": {\"intent\": \"ask_symptomes\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_traitement\"}}]": "utter_ask_traitement",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_traitement\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_traitement\"}, \"user\": {\"intent\": \"ask_traitement\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_facteur\"}}]": "utter_ask_facteur",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_facteur\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_facteur\"}, \"user\": {\"intent\": \"ask_facteur\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_prevention\"}}]": "utter_ask_prevention",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_prevention\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_prevention\"}, \"user\": {\"intent\": \"ask_prevention\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_facteur\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_facteur\"}, \"user\": {\"intent\": \"ask_facteur\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_facteur\"}}]",
+      "predicting default action with intent back"
+    ]
+  }
+}

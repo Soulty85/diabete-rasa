@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+  - story: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Say goodbye when the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Respond to bot challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - story: répondre à la question générale sur le diabète
+    steps:
+    - intent: ask_general
+    - action: utter_ask_general
+
+  - story: répondre à la question sur les complications du diabète
+    steps:
+    - intent: ask_consequences
+    - action: utter_ask_consequences
+
+  - story: répondre à la question sur les symptômes du diabète
+    steps:
+    - intent: ask_symptomes
+    - action: utter_ask_symptomes
+
+  - story: répondre à la question sur les types de diabète
+    steps:
+    - intent: ask_types
+    - action: utter_ask_types
+
+  - story: répondre à la question sur les facteurs de risque du diabète de type 2
+    steps:
+    - intent: asd_facteur
+    - action: utter_ask_facteur
+
+  - story: répondre à la question sur le traitement du diabète
+    steps:
+    - intent: ask_traitement
+    - action: utter_ask_traitement
+
+  - story: répondre à la question sur la prévention du diabète
+    steps:
+    - intent: ask_prevention
+    - action: utter_ask_prevention
+
+  - story: répondre à la question sur la guérison du diabète
+    steps:
+    - intent: ask_guerison
+    - action: utter_ask_guerison
